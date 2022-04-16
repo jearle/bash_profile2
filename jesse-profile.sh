@@ -18,7 +18,7 @@ GRAY='\[\033[0;37m\]'
 NORMAL='\[\033[00m\]'
 
 MY_GIT="\$(__git_ps1)"
-TIME="\@"
+TIME="\@ | \D{%Y-%m-%d}"
 MY_PATH="\w"
 
 PS1=$( cat <<EOF
