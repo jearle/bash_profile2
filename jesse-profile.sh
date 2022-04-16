@@ -1,7 +1,7 @@
 alias ls="ls -lah --color"
 
-. "$HOME/.git-bash/.git-completion.bash"
-. "$HOME/.git-bash/.git-prompt.sh"
+. $HOME/.jesse-profile/git-completion.sh
+. $HOME/.jesse-profile/git-prompt.sh
 
 GIT_PS1_SHOWDIRTYSTATE=1
 
